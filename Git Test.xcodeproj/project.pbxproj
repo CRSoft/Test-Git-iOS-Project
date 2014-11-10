@@ -14,6 +14,7 @@
 		AA93F3191A10B014000B08A4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA93F3181A10B014000B08A4 /* Images.xcassets */; };
 		AA93F31C1A10B014000B08A4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA93F31A1A10B014000B08A4 /* LaunchScreen.xib */; };
 		AA93F3281A10B014000B08A4 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93F3271A10B014000B08A4 /* Git_TestTests.m */; };
+		AA93F3331A10B3EC000B08A4 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93F3321A10B3EC000B08A4 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AA93F3211A10B014000B08A4 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA93F3261A10B014000B08A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA93F3271A10B014000B08A4 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		AA93F3311A10B3EC000B08A4 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		AA93F3321A10B3EC000B08A4 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				AA93F3101A10B014000B08A4 /* AppDelegate.m */,
 				AA93F3121A10B014000B08A4 /* ViewController.h */,
 				AA93F3131A10B014000B08A4 /* ViewController.m */,
+				AA93F3311A10B3EC000B08A4 /* CCTest.h */,
+				AA93F3321A10B3EC000B08A4 /* CCTest.m */,
 				AA93F3151A10B014000B08A4 /* Main.storyboard */,
 				AA93F3181A10B014000B08A4 /* Images.xcassets */,
 				AA93F31A1A10B014000B08A4 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA93F3141A10B014000B08A4 /* ViewController.m in Sources */,
+				AA93F3331A10B3EC000B08A4 /* CCTest.m in Sources */,
 				AA93F3111A10B014000B08A4 /* AppDelegate.m in Sources */,
 				AA93F30E1A10B014000B08A4 /* main.m in Sources */,
 			);
